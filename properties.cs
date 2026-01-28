@@ -55,12 +55,12 @@ public class Student
     {
         public static void Main()
         {
-            Student c1 = new();
+            Student c1 = new Student();
             c1.ID = 101;
             c1.Name = "Hamad Khaliq";
-            Console.WriteLine("Student Name: " + c1.Name);
-            Console.WriteLine("Student ID: " + c1.ID);
-            Console.WriteLine("Student Pass Mark: " + c1.PassMark);
+            Console.WriteLine("Student Name= {0} " + c1.Name);
+            Console.WriteLine("Student ID={0}" + c1.ID);
+            Console.WriteLine("Student Pass Mark = {0} " + c1.PassMark);
         }
     }
     
